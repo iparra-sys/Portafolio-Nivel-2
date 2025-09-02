@@ -33,7 +33,7 @@ Un script que busca recetas en línea según un ingrediente dado, usando scrapin
 - **Habilidades practicadas:** web scraping con BeautifulSoup, manejo de cadenas de texto y archivos `.txt`.  
  1. Ejecutar el script:  
      ```bash
-     python recetario.py
+     python recetario_on_off.py
      ```
  2. Ingresar un ingrediente.  
  3. Se mostrarán las **5 primeras recetas encontradas** y se guardarán en `recetas.txt`.  
