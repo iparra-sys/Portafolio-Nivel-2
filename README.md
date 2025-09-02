@@ -28,7 +28,7 @@ Un programa que se conecta a la API de **OpenWeatherMap** para obtener el clima 
 
 ---
 
-### 🍲 2. Recetario con web scraping (`recetario.py`)
+### 🍲 2. Recetario con web scraping (`recetario_on_off.py`)
 Un script que busca recetas en línea según un ingrediente dado, usando scraping en la web de RecetasGratis.  
 - **Habilidades practicadas:** web scraping con BeautifulSoup, manejo de cadenas de texto y archivos `.txt`.  
  1. Ejecutar el script:  
