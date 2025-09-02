@@ -30,17 +30,25 @@ Un programa que se conecta a la API de **OpenWeatherMap** para obtener el clima 
 
 ### 🍲 2. Recetario con web scraping (`recetario.py`)
 Un script que busca recetas en línea según un ingrediente dado, usando scraping en la web de RecetasGratis.  
-- **Habilidades practicadas:** web scraping con BeautifulSoup, manejo de strings y archivos de texto.  
-1. Ejecutar el script e ingresar un ingrediente.  
-2. Se mostrarán las 5 primeras recetas encontradas y se guardarán en un archivo `recetas.txt`.  
+- **Habilidades practicadas:** web scraping con BeautifulSoup, manejo de cadenas de texto y archivos `.txt`.  
+ 1. Ejecutar el script:  
+     ```bash
+     python recetario.py
+     ```
+ 2. Ingresar un ingrediente.  
+ 3. Se mostrarán las **5 primeras recetas encontradas** y se guardarán en `recetas.txt`.  
 
 ---
 
 ### ✅ 3. Gestor de tareas con GUI (`gestor_tareas.py`)
 Una aplicación gráfica para organizar tareas pendientes.  
-- **Habilidades practicadas:** GUI con Tkinter, manejo de archivos JSON, listas dinámicas.  
-1. Permite **agregar, completar y eliminar tareas**.  
-2. Las tareas se guardan en un archivo `tareas.json`, por lo que no se pierden al cerrar el programa.  
+- **Habilidades practicadas:** GUI con Tkinter, persistencia con JSON, listas dinámicas.  
+ 1. Ejecutar el script:  
+     ```bash
+     python gestor_tareas.py
+     ```
+ 2. Permite **agregar, completar y eliminar tareas**.  
+ 3. Las tareas se guardan en `tareas.json` para no perderse al cerrar el programa.  
 
 ---
 
