@@ -10,7 +10,7 @@ En este nivel presento proyectos que integran consumo de **APIs**, **Web Scrapin
 | Proyecto | Descripción | Código |
 |----------|-------------|--------|
 | 🌦️ **Consultor de clima con API** | Consulta en tiempo real el clima de una ciudad usando una API pública (OpenWeatherMap). | `consultor_clima.py` |
-| 🍳 **Recetario con Web Scraping** | Extrae recetas desde la web según ingrediente buscado. | `recetario_scraper.py` |
+| 🍳 **Recetario con Web Scraping** | Extrae recetas desde la web según ingrediente buscado. | `recetario_on_off.py` |
 | 🖼️ **Gestor de tareas con GUI** | Aplicación gráfica para crear y gestionar tareas con interfaz en Tkinter. | `gestor_tareas.py` |
 
 ---
