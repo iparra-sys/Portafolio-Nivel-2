@@ -28,71 +28,42 @@ Un programa que se conecta a la API de **OpenWeatherMap** para obtener el clima 
 
 ---
 
-🍳 2. Recetario con Web Scraping (recetario_scraper.py)
-
-Un script que busca recetas en línea según un ingrediente y extrae título + link de preparación.
-
-Habilidades practicadas: requests, BeautifulSoup, parsing de HTML, almacenamiento de datos en archivo .txt.
-
-Uso:
-
-Ejecuta el script:
-
-python recetario_scraper.py
-
-
-Ingresa un ingrediente (ej: pollo).
-
-Se mostrarán recetas encontradas y se guardarán en recetas.txt.
+### 🍲 2. Recetario con web scraping (`recetario.py`)
+Un script que busca recetas en línea según un ingrediente dado, usando scraping en la web de RecetasGratis.  
+- **Habilidades practicadas:** web scraping con BeautifulSoup, manejo de strings y archivos de texto.  
+1. Ejecutar el script e ingresar un ingrediente.  
+2. Se mostrarán las 5 primeras recetas encontradas y se guardarán en un archivo `recetas.txt`.  
 
 ---
 
-🖼️ 3. Gestor de tareas con GUI (gestor_tareas.py)
-
-Una aplicación con interfaz gráfica en Tkinter para organizar tareas diarias.
-
-Habilidades practicadas: GUI con Tkinter, eventos, persistencia en JSON.
-
-Uso:
-
-Ejecuta el script:
-
-python gestor_tareas.py
-
-
-Agrega tareas, márcalas como completadas o elimínalas desde la ventana gráfica.
+### ✅ 3. Gestor de tareas con GUI (`gestor_tareas.py`)
+Una aplicación gráfica para organizar tareas pendientes.  
+- **Habilidades practicadas:** GUI con Tkinter, manejo de archivos JSON, listas dinámicas.  
+1. Permite **agregar, completar y eliminar tareas**.  
+2. Las tareas se guardan en un archivo `tareas.json`, por lo que no se pierden al cerrar el programa.  
 
 ---
 
+## 🛠 Tecnologías usadas
+- **Python**  
+- Librerías: `requests`, `beautifulsoup4`, `tkinter`, `json`, `os`  
 
-🛠 Tecnologías usadas
+---
 
-Python
+## 🎯 Habilidades desarrolladas
+- Consumo de **APIs** y manejo de datos en formato JSON.  
+- **Web Scraping** para obtener información desde páginas web.  
+- Creación de **interfaces gráficas** con Tkinter.  
+- Persistencia de datos con archivos `.txt` y `.json`.  
 
-Librerías estándar: os, json, tkinter
+---
 
-Librerías externas: requests, beautifulsoup4
+## 📌 Próximos pasos
+En el siguiente nivel de mi portafolio incluiré:  
+✅ Pequeñas aplicaciones de escritorio más avanzadas.  
+✅ Uso de **bases de datos (SQLite, PostgreSQL)**.  
+✅ Mini proyectos con **Flask/Django** para la web.  
 
-🎯 Habilidades desarrolladas
+---
 
-Consumo de APIs REST y manejo de datos en formato JSON.
-
-Web Scraping para extraer y estructurar información desde páginas web.
-
-Creación de interfaces gráficas (GUI) con Tkinter.
-
-Almacenamiento de datos en archivos .txt y .json.
-
-🚀 Notas
-
-Este nivel refleja mi transición desde proyectos básicos hacia aplicaciones más útiles y con interacción con internet y usuarios.
-Demuestra mi capacidad de conectar Python con fuentes de datos externas y construir aplicaciones prácticas.
-
-📌 Próximos pasos
-
-En el siguiente nivel de mi portafolio incluiré:
-✅ Proyectos con bases de datos (SQLite, PostgreSQL).
-✅ Aplicaciones CRUD con GUI.
-✅ Integración con frameworks web (Flask/Django).
-
-👩‍💻 Repositorio creado por Iveth Parra.
+👩‍💻 *Repositorio creado por [Iveth Parra](https://www.linkedin.com/in/iveth-parra-herrera-351a6a235).*  
